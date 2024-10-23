@@ -7,4 +7,10 @@ function setup() {
 
 function draw() {
   image(img, 0, 0, 1280, 720);
+  if (mouseIsPressed === true) {
+    console.log(mouseX, mouseY);
+  }
+
+  fill(255, 0, 0);
+  triangle(572, 343, 617, 335, 567, 316);
 }
